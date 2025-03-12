@@ -1,0 +1,91 @@
+/* Réinitialisation */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.logo-container {
+    position: absolute;
+    top: 20px;
+    right: 50%;
+    transform: translateX(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    width: 72px;
+    height: 72px;
+    margin: 0 5px;
+}
+
+/* LOGO */
+.logo {
+    margin-top: 65px;
+    font-size: 7rem;
+    font-weight: bold;
+    color: #FF4081;
+}
+
+/* HERO SECTION */
+.hero {
+    background-color: #87CEFA;
+    padding: 5vh 0;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.highlight {
+    background-color: #fff;
+    padding: 0 10px;
+    color: #FF69B4;
+}
+
+/* IMAGE & BOUTONS */
+.image-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.khrija-logo {
+    width: 100%;
+    max-width: 300px;
+}
+
+.app-icon {
+    width: 190px;
+    height: 60px;
+}

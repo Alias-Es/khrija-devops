@@ -2,7 +2,7 @@
 
 ## 🖼️ Aperçu de l'application
 <div align="center">
-<img src="public/images/image01.jpg" alt="Aperçu du site" width="350"/>
+<img src="public/images/image01.jpg" alt="Aperçu du site" width="500"/>
 </div>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
